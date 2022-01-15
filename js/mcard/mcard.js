@@ -1,4 +1,4 @@
-var _url = $('meta[property="og:url"]').attr('content');
+var _url = 'https://nlogn93.github.io/wedding-invitation/';
 var _title = $('meta[property="og:title"]').attr('content');
 var _desc = $('meta[property="og:description"]').attr('content');
 var _wedddate = $("#Product_Category_Code").val() == "PCC02" ? "" : $('#WeddingDate').val() + " " + getWeddingWeekName($('#WeddingWeekName').val()) + "요일 " + getTime_Type_Name($('#Time_Type_Name').val()) + " " + $('#WeddingHour').val() + "시 " + $('#WeddingMin').val() + "분 \n";
@@ -412,7 +412,7 @@ $().ready(function (e) {
         var navurl = "";
 
         // 웹브라우저 내에서 네이버지도로 이동
-        navurl = 'http://map.naver.com/index.nhn?enc=utf8&level=2&lng=' + lng + '&lat=' + lat + '&pinTitle=' + encodeURIComponent(loc) + '&pinType=SITE';
+        navurl = 'https://m.map.kakao.com/actions/detailMapView?id=1485166493&refService=place';
         var f = window.open(navurl);
 
         return false;
