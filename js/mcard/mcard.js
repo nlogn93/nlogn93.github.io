@@ -1,7 +1,6 @@
 var _url = 'https://nlogn93.github.io/wedding-invitation/';
 var _title = $('meta[property="og:title"]').attr('content');
 var _desc = $('meta[property="og:description"]').attr('content');
-var _wedddate = $("#Product_Category_Code").val() == "PCC02" ? "" : $('#WeddingDate').val() + " " + getWeddingWeekName($('#WeddingWeekName').val()) + "요일 " + getTime_Type_Name($('#Time_Type_Name').val()) + " " + $('#WeddingHour').val() + "시 " + $('#WeddingMin').val() + "분 \n";
 var _image = $('meta[property="og:image"]').attr('content');
 var _imgWidth = $('meta[property="og:image:width"]').attr('content');
 var _imgHeight = $('meta[property="og:image:height"]').attr('content');
@@ -389,7 +388,7 @@ $().ready(function (e) {
             title: _title, // 타이틀
             //description: _desc + "\n바른손M카드 모바일청첩장", // 상세정보
             //description: _desc + "\n바른손M카드", // 상세정보
-            description: _wedddate + _desc,
+            description: _desc + "\n여의도 더파티움 그랜드 컨벤션 홀 B1",
             imageUrl: _image, // 이미지
             link: {
                 mobileWebUrl: _url, // 모바일 주소 걍 location.href
