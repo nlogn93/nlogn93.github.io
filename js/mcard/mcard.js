@@ -428,7 +428,7 @@ $().ready(function (e) {
     });
     $('.btn_share').click(function (e) {
         var type = $(this).data('type');
-        var url = $('meta[property="og:url"]').attr('content');
+        var url = _url;
         var title = $('meta[property="og:title"]').attr('content');
 
         if (type == 'copy') {
