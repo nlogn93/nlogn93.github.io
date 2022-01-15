@@ -1,4 +1,4 @@
-var _url = 'https://nlogn93.github.io/wedding-invitation/';
+var _url = 'https://nlogn93.github.io/';
 var _title = $('meta[property="og:title"]').attr('content');
 var _desc = $('meta[property="og:description"]').attr('content');
 var _image = $('meta[property="og:image"]').attr('content');
