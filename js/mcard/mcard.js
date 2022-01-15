@@ -380,7 +380,7 @@ $().ready(function (e) {
             });
         });
     }
-    Kakao.init('94a08cfa99972d4a71c99401069b1311');
+    Kakao.init('650acd53ead1016485d66aada2cd24cb');
     // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
     Kakao.Link.createDefaultButton({
         container: '#kakao-link-btn', // 버튼 id
